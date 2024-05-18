@@ -14,6 +14,8 @@
 		681C372C2BF675200083812C /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C372B2BF675200083812C /* TaskList.swift */; };
 		681C372E2BF67DE10083812C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C372D2BF67DE10083812C /* ListView.swift */; };
 		681C37302BF682A60083812C /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C372F2BF682A60083812C /* ListRowView.swift */; };
+		681C37322BF687D80083812C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C37312BF687D80083812C /* AddView.swift */; };
+		681C37342BF8AF1C0083812C /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C37332BF8AF1C0083812C /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		681C372B2BF675200083812C /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 		681C372D2BF67DE10083812C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		681C372F2BF682A60083812C /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		681C37312BF687D80083812C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		681C37332BF8AF1C0083812C /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			children = (
 				681C37292BF652C20083812C /* CategoryModel.swift */,
 				681C372B2BF675200083812C /* TaskList.swift */,
+				681C37332BF8AF1C0083812C /* ItemModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 			children = (
 				681C372D2BF67DE10083812C /* ListView.swift */,
 				681C372F2BF682A60083812C /* ListRowView.swift */,
+				681C37312BF687D80083812C /* AddView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,8 +178,10 @@
 			files = (
 				681C372C2BF675200083812C /* TaskList.swift in Sources */,
 				681C372E2BF67DE10083812C /* ListView.swift in Sources */,
+				681C37322BF687D80083812C /* AddView.swift in Sources */,
 				681C37302BF682A60083812C /* ListRowView.swift in Sources */,
 				681C372A2BF652C20083812C /* CategoryModel.swift in Sources */,
+				681C37342BF8AF1C0083812C /* ItemModel.swift in Sources */,
 				681C37192BF651370083812C /* TodoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

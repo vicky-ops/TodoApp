@@ -8,16 +8,36 @@
 import SwiftUI
 
 struct ListRowView: View {
+//    let title: Item
+    let item: ItemModel
+
     var body: some View {
+        
         HStack{
             Image(systemName: "checkmark.circle")
-            Text("This is First Item")
+            Text(item.title)
             Spacer()
         }
     }
 }
 
 
+
+
+
 #Preview {
-    ListRowView()
+    Group{
+        var item1 = ItemModel(title: "Complete Swift Class", isCompleted: false)
+        ListRowView(item:item1)
+    }
+    
 }
+
+#Preview {
+    Group{
+        var item1 = ItemModel(title: "Complete Swift Class", isCompleted: false)
+        ListRowView(item:item1)
+    }
+    
+}
+
